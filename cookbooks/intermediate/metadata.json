@@ -1,30 +1,31 @@
 {
-  "license": "All rights reserved",
-  "version": "0.0.1",
-  "recipes": {
-    "intermediate::default": "Prints hello world output"
-  },
-  "providing": {
-  },
-  "attributes": {
-  },
-  "conflicting": {
-  },
-  "groupings": {
-  },
   "replacing": {
   },
-  "name": "intermediate",
   "suggestions": {
   },
   "maintainer_email": "YOUR_EMAIL",
-  "maintainer": "YOUR_COMPANY_NAME",
-  "recommendations": {
+  "recipes": {
+    "intermediate::default": "Prints hello world output"
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "name": "intermediate",
+  "version": "0.0.1",
+  "providing": {
   },
   "platforms": {
   },
-  "description": "Installs/Configures intermediate",
+  "license": "All rights reserved",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "groupings": {
+  },
+  "attributes": {
+  },
   "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "dependencies": {
+  "description": "Installs/Configures intermediate",
+  "conflicting": {
+  },
+  "recommendations": {
   }
 }
