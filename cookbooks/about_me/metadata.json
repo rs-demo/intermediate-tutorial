@@ -1,0 +1,31 @@
+{
+  "suggestions": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "replacing": {
+  },
+  "recipes": {
+    "about_me::default": "Prints my first name and several of my favorite things as output."
+  },
+  "recommendations": {
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "platforms": {
+  },
+  "providing": {
+  },
+  "license": "All rights reserved",
+  "attributes": {
+  },
+  "description": "Installs/Configures about_me",
+  "groupings": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "name": "about_me"
+}
