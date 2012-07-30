@@ -1,0 +1,72 @@
+{
+  "maintainer": "YOUR_COMPANY_NAME",
+  "suggestions": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "description": "Installs/Configures about_city",
+  "providing": {
+  },
+  "conflicting": {
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "license": "All rights reserved",
+  "version": "0.0.1",
+  "maintainer_email": "YOUR_EMAIL",
+  "platforms": {
+  },
+  "recipes": {
+    "about_city::my_city": "Information about my city"
+  },
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "name": "about_city",
+  "attributes": {
+    "about_city/rain": {
+      "default": "no",
+      "description": "Is it raining? Yes or No",
+      "type": "string",
+      "required": "recommended",
+      "choice": [
+        "yes",
+        "no"
+      ],
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "calculated": false,
+      "display_name": "Raining"
+    },
+    "about_city/city_name": {
+      "description": "The city where I currently live.",
+      "type": "string",
+      "required": "required",
+      "choice": [
+
+      ],
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "calculated": false,
+      "display_name": "City Name"
+    },
+    "about_city/temperature": {
+      "description": "Current temperature in the city",
+      "type": "string",
+      "required": "optional",
+      "choice": [
+
+      ],
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "calculated": false,
+      "display_name": "Temperature"
+    }
+  },
+  "replacing": {
+  }
+}
